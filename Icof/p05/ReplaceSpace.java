@@ -1,7 +1,7 @@
-package codinginterviews05;
+package p05;
 
-public class Solution {
-    public String replaceSpace(String s) {
+public class ReplaceSpace {
+    public static String replaceSpace(String s) {
         StringBuilder res = new StringBuilder();
         for(Character c : s.toCharArray()) {
             if(c == ' '){
@@ -11,5 +11,10 @@ public class Solution {
             }
         }
         return res.toString();
+    }
+    public static void main(String[] args) {
+        String testS = "We are happy.";
+        String res = replaceSpace(testS);
+        System.out.println(res);
     }
 }

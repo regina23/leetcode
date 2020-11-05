@@ -1,9 +1,15 @@
-package codinginterviews06;
+package p06;
 
 import java.util.Stack;
 
-class Solution {
-    public int[] reversePrint(ListNode head) {
+class ReversePrint {
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
+
+    public static int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
         ListNode temp = head;
         while(temp != null) {
@@ -16,5 +22,9 @@ class Solution {
             res[i] = stack.pop().val;
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        
     }
 }
