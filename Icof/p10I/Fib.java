@@ -42,7 +42,7 @@ public class Fib {
 
     public static void main(String[] args) {
         int testNum = 8; 
-        int res = fib4(testNum);  // res = 21
+        int res = fib3(testNum);  // res = 21
         System.out.println(res);
     }
 }
