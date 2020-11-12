@@ -3,7 +3,7 @@ package p06;
 import java.util.Stack;
 
 class ReversePrint {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
         ListNode(int x) { val = x; }
@@ -25,6 +25,12 @@ class ReversePrint {
     }
 
     public static void main(String[] args) {
-        
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(3);
+        head.next.next = new ListNode(2);
+        int[] res = reversePrint(head);
+        for(int each : res) {
+            System.out.println(each);
+        }
     }
 }

@@ -1,4 +1,4 @@
-package p11;
+package p10II;
 
 public class NumWays {
     public static int numWays(int n) {
