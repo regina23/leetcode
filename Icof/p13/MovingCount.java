@@ -1,7 +1,7 @@
 package p13;
 
 
-class MovingCount {
+public class MovingCount {
     public static int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
         return dfs(0, 0, m, n, k, visited);
