@@ -2,7 +2,7 @@ package p06;
 
 import java.util.Stack;
 
-class ReversePrint {
+public class ReversePrint {
     public static class ListNode {
         int val;
         ListNode next;

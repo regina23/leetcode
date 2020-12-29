@@ -3,7 +3,7 @@ package p09;
 import java.util.Deque;
 import java.util.LinkedList;
 
-class Queue {
+public class Queue {
     static class CQueue {
         Deque<Integer> stack1;
         Deque<Integer> stack2;
