@@ -1,4 +1,4 @@
-package p18;
+package p06;
 
 public class ListNode {
     int val;

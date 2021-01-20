@@ -3,11 +3,7 @@ package p06;
 import java.util.Stack;
 
 public class ReversePrint {
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
+
 
     public static int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
