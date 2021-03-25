@@ -1,11 +1,12 @@
-package p06;
+package com.regina23.icof._06;
 
+import com.regina23.source.ListNode;
+
+import java.util.Arrays;
 import java.util.Stack;
 
-public class ReversePrint {
-
-
-    public static int[] reversePrint(ListNode head) {
+public class Solution {
+    public int[] reversePrint(ListNode head) {
         Stack<ListNode> stack = new Stack<>();
         ListNode temp = head;
         while(temp != null) {
@@ -21,12 +22,9 @@ public class ReversePrint {
     }
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(3);
-        head.next.next = new ListNode(2);
-        int[] res = reversePrint(head);
-        for(int each : res) {
-            System.out.println(each);
-        }
+        Solution solution = new Solution();
+        ListNode head = ListNode.createTestData("[1,3,2]");
+        int[] res = solution.reversePrint(head);
+        System.out.println(Arrays.toString(res));
     }
 }

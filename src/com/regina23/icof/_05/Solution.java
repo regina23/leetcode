@@ -1,7 +1,7 @@
-package p05;
+package com.regina23.icof._05;
 
-public class ReplaceSpace {
-    public static String replaceSpace(String s) {
+public class Solution {
+    public String replaceSpace(String s) {
         StringBuilder res = new StringBuilder();
         for(Character c : s.toCharArray()) {
             if(c == ' '){
@@ -13,8 +13,9 @@ public class ReplaceSpace {
         return res.toString();
     }
     public static void main(String[] args) {
+        Solution solution = new Solution();
         String testS = "We are happy.";
-        String res = replaceSpace(testS);
+        String res = solution.replaceSpace(testS);
         System.out.println(res);
     }
 }

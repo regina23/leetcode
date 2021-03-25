@@ -1,7 +1,7 @@
-package p12;
+package com.regina23.icof._12;
 
-public class Exist {
-    public static boolean exist(char[][] board, String word) {
+public class Solution {
+    public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[0].length; j++){
@@ -26,13 +26,14 @@ public class Exist {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         char[][] board1 = {{'A', 'B', 'C','E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
         String word1 = "ABCCED";
-        boolean res1 =  exist(board1, word1);
+        boolean res1 =  solution.exist(board1, word1);
 
         char[][] board2 = {{'a', 'b'}, {'c', 'd'}};
         String word2 = "abcd";
-        boolean res2 = exist(board2, word2);
+        boolean res2 = solution.exist(board2, word2);
 
         System.out.println(res1);
         System.out.println(res2);

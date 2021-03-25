@@ -1,7 +1,7 @@
-package p20;
+package com.regina23.icof._20;
 
-public class IsNumber {
-    public static boolean isNumber(String s) {
+public class Solution {
+    public boolean isNumber(String s) {
         s = s.trim();
         //排除三种情况。  空串，e前没有数字，只有.
         String regex = "\\s*|([+-]?\\.?[eE][\\s\\S]*)|([+-]?\\.)";
@@ -12,8 +12,9 @@ public class IsNumber {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         String s = "3.";
-        Boolean res = isNumber(s);
+        Boolean res = solution.isNumber(s);
         System.out.print(res); 
     }
 }

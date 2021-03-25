@@ -1,7 +1,7 @@
-package p11;
+package com.regina23.icof._11;
 
-public class MinArray {
-    public static int minArray(int[] numbers) {
+public class Solution {
+    public int minArray(int[] numbers) {
         int start = 0;
         int end = numbers.length - 1;
         while(start < end) {
@@ -18,8 +18,9 @@ public class MinArray {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] testList = {3, 4, 5, 1, 2};
-        int res = minArray(testList);
+        int res = solution.minArray(testList);
         System.out.println(res);
     }
 } 

@@ -1,8 +1,8 @@
-package p13;
+package com.regina23.icof._13;
 
 
-public class MovingCount {
-    public static int movingCount(int m, int n, int k) {
+public class Solution {
+    public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
         return dfs(0, 0, m, n, k, visited);
     }
@@ -16,8 +16,9 @@ public class MovingCount {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int m = 2, n = 3, k = 1;
-        int res = movingCount(m, n, k);
+        int res = solution.movingCount(m, n, k);
         System.out.println(res);
     }
 }

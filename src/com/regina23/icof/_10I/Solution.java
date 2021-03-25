@@ -1,8 +1,8 @@
-package p10I;
+package com.regina23.icof._10I;
 
-public class Fib {
+public class Solution {
     // recursion
-    public static int fib1(int n) {
+    public int fib1(int n) {
         if(n == 0) {
             return 0;
         } else if(n == 1) {
@@ -13,7 +13,7 @@ public class Fib {
     }
 
     // set an array
-    public static int fib2(int n) {
+    public int fib2(int n) {
         if(n == 0) {
             return 0;
         } else if(n == 1) {
@@ -30,7 +30,7 @@ public class Fib {
     }
 
     // DP
-    public static int fib3(int n) {
+    public int fib3(int n) {
         int a = 0, b = 1, sum;
         for(int i = 0; i < n; i++) {
             sum = (a + b) % 1000000007;
@@ -41,8 +41,9 @@ public class Fib {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int testNum = 8; 
-        int res = fib3(testNum);  // res = 21
+        int res = solution.fib3(testNum);  // res = 21
         System.out.println(res);
     }
 }

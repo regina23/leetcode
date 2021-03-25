@@ -1,7 +1,7 @@
-package p04;
+package com.regina23.icof._04;
 
-public class FindNumberIn2DArray {
-    public static boolean findNumberIn2DArray(int[][] matrix, int target) {
+public class Solution {
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
@@ -23,6 +23,7 @@ public class FindNumberIn2DArray {
     }
     
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[][] testMatrix = {
             {1,   4,  7, 11, 15},
             {2,   5,  8, 12, 19},
@@ -31,7 +32,7 @@ public class FindNumberIn2DArray {
             {18, 21, 23, 26, 30}};
         int[] testTable = {5, 20};
         for (int test : testTable) {
-            boolean res = findNumberIn2DArray(testMatrix, test);
+            boolean res = solution.findNumberIn2DArray(testMatrix, test);
             System.out.println(res);
         }	
     }

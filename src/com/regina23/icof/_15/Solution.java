@@ -1,7 +1,7 @@
-package p15;
+package com.regina23.icof._15;
 
-public class HammingWeight {
-    public static int hammingWeight(int n) {
+public class Solution {
+    public int hammingWeight(int n) {
         int cnt = 0;
         while(n != 0) {
             cnt += n & 1;  // 与运算判断最右位是0或1
@@ -10,6 +10,7 @@ public class HammingWeight {
         return cnt;
     }
     public static void main(String[] args) {
-        System.out.println(hammingWeight(00000000000000000000000000001011));
+        Solution solution = new Solution();
+        System.out.println(solution.hammingWeight(00000000000000000000000000001011));
     }
 }

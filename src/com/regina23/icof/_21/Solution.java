@@ -1,9 +1,9 @@
-package p21;
+package com.regina23.icof._21;
 
 import java.util.Arrays;
 
-public class Exchage {
-    public static int[] exchage(int[] nums) {
+public class Solution {
+    public int[] exchage(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
         while(left < right) {
@@ -29,8 +29,9 @@ public class Exchage {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] nums = {1, 2, 3,};
-        int[] res = exchage(nums);
+        int[] res = solution.exchage(nums);
         System.out.println(Arrays.toString(res));
     }
 }

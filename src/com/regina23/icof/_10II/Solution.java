@@ -1,7 +1,7 @@
-package p10II;
+package com.regina23.icof._10II;
 
-public class NumWays {
-    public static int numWays(int n) {
+public class Solution {
+    public int numWays(int n) {
         int a = 1, b = 1, sum;
         for(int i = 0; i < n; i++) {
             sum = (a + b) % 1000000007;
@@ -12,9 +12,10 @@ public class NumWays {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] testList = {2, 7, 0};
         for(int t : testList){
-            int res = numWays(t);
+            int res = solution.numWays(t);
             System.out.println(res);
         }
     }

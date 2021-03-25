@@ -1,8 +1,9 @@
-package p03;
+package com.regina23.icof._03;
+
 import java.util.*;
 
-public class FindRepeatNumber {  
-    public static int findRepeatNumber(int[] nums) {
+public class Solution {
+    public int findRepeatNumber(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             if (!set.add(num))
@@ -12,8 +13,9 @@ public class FindRepeatNumber {
     }
 
     public static void main(String[] args) {
+        Solution solution = new Solution();
         int[] test = { 3, 3, 3 };
-        int res = findRepeatNumber(test);
+        int res = solution.findRepeatNumber(test);
         System.out.println(res);
     }
 }

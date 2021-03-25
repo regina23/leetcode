@@ -1,7 +1,9 @@
-package p18;
+package com.regina23.icof._18;
 
-public class DeleteNode {
-    public static ListNode deleteNode(ListNode head, int val) {
+import com.regina23.source.ListNode;
+
+public class Solution {
+    public ListNode deleteNode(ListNode head, int val) {
         if (head == null) {
             return head;
         }
@@ -31,12 +33,10 @@ public class DeleteNode {
 
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(4);
-        head.next = new ListNode(5);
-        head.next.next = new ListNode(1);
-        head.next.next.next = new ListNode(9);
-        System.out.println(deleteNode(head, 4).val);
-        System.out.println(deleteNode(head, 1).val);
+        Solution solution = new Solution();
+        ListNode head = ListNode.createTestData("[4,5,1,9]");
+        System.out.println(solution.deleteNode(head, 4).val);
+        System.out.println(solution.deleteNode(head, 1).val);
 
     }
 }

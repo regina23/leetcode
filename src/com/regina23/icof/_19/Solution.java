@@ -1,7 +1,7 @@
-package p19;
+package com.regina23.icof._19;
 
-public class IsMatch {
-    public static boolean isMatch(String s, String p) {
+public class Solution {
+    public boolean isMatch(String s, String p) {
         int n = s.length();
         int m = p.length();
         boolean[][] f = new boolean[n+1][m+1];
@@ -56,10 +56,11 @@ public class IsMatch {
     }
 
     public static void main(String[] args) {
-        System.out.println(isMatch("aa", "a"));  // false
-        System.out.println(isMatch("aa", "a*"));  // true
-        System.out.println(isMatch("ab", ".*"));  // true
-        System.out.println(isMatch("aab", "c*a*b"));  // true
-        System.out.println(isMatch("mississippi", "mis*is*p*."));  // false
+        Solution solution = new Solution();
+        System.out.println(solution.isMatch("aa", "a"));  // false
+        System.out.println(solution.isMatch("aa", "a*"));  // true
+        System.out.println(solution.isMatch("ab", ".*"));  // true
+        System.out.println(solution.isMatch("aab", "c*a*b"));  // true
+        System.out.println(solution.isMatch("mississippi", "mis*is*p*."));  // false
     }
 }

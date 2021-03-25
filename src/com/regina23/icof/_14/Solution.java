@@ -1,7 +1,7 @@
-package p14;
+package com.regina23.icof._14;
 
-public class CuttingRope {
-    public static int cuttingRope(int n) {
+public class Solution {
+    public int cuttingRope(int n) {
         long sum = 1;
         int mod = 1000000007;
         if(n <= 3) {
@@ -25,8 +25,9 @@ public class CuttingRope {
         return (int)sum;
     }
     public static void main(String[] args) {
-        System.out.println(cuttingRope(5));  // 6
-        System.out.println(cuttingRope(10));  // 36
-        System.out.println(cuttingRope(120));  // 953271190
+        Solution solution = new Solution();
+        System.out.println(solution.cuttingRope(5));  // 6
+        System.out.println(solution.cuttingRope(10));  // 36
+        System.out.println(solution.cuttingRope(120));  // 953271190
     }
 }
