@@ -114,4 +114,23 @@ public class TreeNode {
         }
         System.out.println(res);
     }
+
+    /**
+     * 查找值为k的节点
+     *
+     * @param root
+     * @param k
+     * @return {@link TreeNode}
+     */
+    public static TreeNode findElement(TreeNode root, int k) {
+        while(root.val != k) {
+            if(root.left != null){
+                root = root.left;
+            }
+            if(root.right != null) {
+                root = root.right;
+            }
+        }
+        return root;
+    }
 }
