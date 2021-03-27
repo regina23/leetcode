@@ -1,7 +1,26 @@
 package com.regina23.algorithm._0083;
 
+import com.regina23.source.ListNode;
+
 public class Solution {
-    public static void main(Args[]) {
-        System.out.println("1");
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head == null) return null;
+        ListNode cur = head;
+        while(cur.next != null) {
+            if(cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+        return head;
+    }
+
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        ListNode testHead = ListNode.createTestData("[1,1,2]");
+        ListNode res = solution.deleteDuplicates(testHead);
+        System.out.println(res.val);
     }
 }
