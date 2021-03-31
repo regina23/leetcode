@@ -1,3 +1,4 @@
-.idea/
-leetcode.iml
-src/com/regina23/baidu/
+/out
+*.iml
+.idea
+/src/com/regina23/baidu/
