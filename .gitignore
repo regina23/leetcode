@@ -1,4 +1,5 @@
 /out
 *.iml
 .idea
-/src
+/src/com/regina23/exams
+CMakeLists.txt
