@@ -1,6 +1,5 @@
 /out
 *.iml
 .idea
-/src/com/regina23/exams
 CMakeLists.txt
 cmake-build-debug
