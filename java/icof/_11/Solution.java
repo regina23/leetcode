@@ -1,4 +1,4 @@
-package com.regina23.icof._11;
+package icof._11;
 
 public class Solution {
     public int minArray(int[] numbers) {

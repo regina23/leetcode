@@ -1,6 +1,6 @@
-package com.regina23.icof._06;
+package icof._06;
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 import java.util.Arrays;
 import java.util.Stack;

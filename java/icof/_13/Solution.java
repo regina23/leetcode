@@ -1,4 +1,4 @@
-package com.regina23.icof._13;
+package icof._13;
 
 
 public class Solution {

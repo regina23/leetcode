@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0020;
+package algorithm._0020;
 
 import java.util.*;
 

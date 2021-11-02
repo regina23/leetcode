@@ -1,4 +1,4 @@
-package com.regina23.icof._10II;
+package icof._10II;
 
 public class Solution {
     public int numWays(int n) {

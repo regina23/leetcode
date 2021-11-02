@@ -1,4 +1,4 @@
-package com.regina23.source;
+package source;
 
 public class DLinkedNode {
     public int key;

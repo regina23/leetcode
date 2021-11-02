@@ -1,6 +1,6 @@
-package com.regina23.icof._32III;
+package icof._32III;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 import java.util.*;
 
@@ -24,7 +24,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        com.regina23.icof._32II.Solution solution = new com.regina23.icof._32II.Solution();
+        icof._32II.Solution solution = new icof._32II.Solution();
         TreeNode testRoot = TreeNode.constructTree(new Integer[] {3, 9, 20, null, null, 15, 7});
         List<List<Integer>> res = solution.levelOrder(testRoot);
         System.out.println(res);

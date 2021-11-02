@@ -1,6 +1,6 @@
-package com.regina23.icof._07;
+package icof._07;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 import java.util.HashMap;
 
 public class Solution {

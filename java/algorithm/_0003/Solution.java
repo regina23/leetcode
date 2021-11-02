@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0003;
+package algorithm._0003;
 
 import java.util.HashMap;
 import java.util.HashSet;

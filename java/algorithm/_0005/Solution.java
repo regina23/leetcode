@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0005;
+package algorithm._0005;
 
 public class Solution {
     public String longestPalindrome(String s) {

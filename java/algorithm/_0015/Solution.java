@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0015;
+package algorithm._0015;
 
 import java.util.ArrayList;
 import java.util.Arrays;

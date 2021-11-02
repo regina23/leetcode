@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0146;
+package algorithm._0146;
 
 public class LRUCache {
     public LRUCache(int capacity) {

@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0076;
+package algorithm._0076;
 
 public class Solution {
     public String minWindow(String s, String t) {

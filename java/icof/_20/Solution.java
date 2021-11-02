@@ -1,4 +1,4 @@
-package com.regina23.icof._20;
+package icof._20;
 
 public class Solution {
     public boolean isNumber(String s) {

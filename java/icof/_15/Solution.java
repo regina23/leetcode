@@ -1,4 +1,4 @@
-package com.regina23.icof._15;
+package icof._15;
 
 public class Solution {
     public int hammingWeight(int n) {

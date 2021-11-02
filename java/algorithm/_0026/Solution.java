@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0026;
+package algorithm._0026;
 
 public class Solution {
     public int removeDuplicates(int[] nums) {

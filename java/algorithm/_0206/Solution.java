@@ -1,7 +1,7 @@
-package com.regina23.algorithm._0206;
+package algorithm._0206;
 
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 public class Solution {
     public ListNode reverseList(ListNode head) {

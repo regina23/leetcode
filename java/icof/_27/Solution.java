@@ -1,6 +1,6 @@
-package com.regina23.icof._27;
+package icof._27;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 public class Solution {
     public TreeNode mirrorTree(TreeNode root) {

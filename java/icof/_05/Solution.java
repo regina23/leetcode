@@ -1,4 +1,4 @@
-package com.regina23.icof._05;
+package icof._05;
 
 public class Solution {
     public String replaceSpace(String s) {

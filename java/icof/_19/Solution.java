@@ -1,4 +1,4 @@
-package com.regina23.icof._19;
+package icof._19;
 
 public class Solution {
     public boolean isMatch(String s, String p) {

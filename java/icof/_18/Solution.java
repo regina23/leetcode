@@ -1,6 +1,6 @@
-package com.regina23.icof._18;
+package icof._18;
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 public class Solution {
     public ListNode deleteNode(ListNode head, int val) {

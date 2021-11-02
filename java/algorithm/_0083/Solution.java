@@ -1,6 +1,6 @@
-package com.regina23.algorithm._0083;
+package algorithm._0083;
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 public class Solution {
     public ListNode deleteDuplicates(ListNode head) {

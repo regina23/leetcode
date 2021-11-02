@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0470;
+package algorithm._0470;
 
 
 import java.util.Random;

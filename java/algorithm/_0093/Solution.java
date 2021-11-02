@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0093;
+package algorithm._0093;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

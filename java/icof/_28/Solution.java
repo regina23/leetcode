@@ -1,6 +1,6 @@
-package com.regina23.icof._28;
+package icof._28;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 public class Solution {
     public boolean isSymmetric(TreeNode root) {

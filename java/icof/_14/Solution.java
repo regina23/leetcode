@@ -1,4 +1,4 @@
-package com.regina23.icof._14;
+package icof._14;
 
 public class Solution {
     public int cuttingRope(int n) {

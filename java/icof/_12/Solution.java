@@ -1,4 +1,4 @@
-package com.regina23.icof._12;
+package icof._12;
 
 public class Solution {
     public boolean exist(char[][] board, String word) {

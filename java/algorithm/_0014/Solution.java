@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0014;
+package algorithm._0014;
 
 public class Solution {
     public String longestCommonPrefix(String[] strs) {

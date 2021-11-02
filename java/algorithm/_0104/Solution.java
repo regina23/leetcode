@@ -1,6 +1,6 @@
-package com.regina23.algorithm._0104;
+package algorithm._0104;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 public class Solution {
     public int maxDepth(TreeNode root) {

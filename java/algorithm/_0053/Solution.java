@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0053;
+package algorithm._0053;
 
 public class Solution {
     public int maxSubArray(int[] nums) {

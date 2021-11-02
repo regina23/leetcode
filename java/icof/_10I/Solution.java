@@ -1,4 +1,4 @@
-package com.regina23.icof._10I;
+package icof._10I;
 
 public class Solution {
     // recursion

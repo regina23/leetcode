@@ -1,4 +1,4 @@
-package com.regina23.icof._16;
+package icof._16;
 
 public class Solution {
     public double myPow(double x, int n) {

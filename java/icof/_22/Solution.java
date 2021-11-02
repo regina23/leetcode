@@ -1,6 +1,6 @@
-package com.regina23.icof._22;
+package icof._22;
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 public class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {

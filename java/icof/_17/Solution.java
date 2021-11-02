@@ -1,4 +1,4 @@
-package com.regina23.icof._17;
+package icof._17;
 
 import java.lang.Math;
 import java.util.Arrays;

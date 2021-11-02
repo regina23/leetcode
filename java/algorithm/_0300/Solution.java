@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0300;
+package algorithm._0300;
 
 public class Solution {
     public int lengthOfLIS(int[] nums) {

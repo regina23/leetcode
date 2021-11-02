@@ -1,6 +1,6 @@
-package com.regina23.icof._26;
+package icof._26;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 public class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {

@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0322;
+package algorithm._0322;
 
 import java.util.Arrays;
 

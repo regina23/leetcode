@@ -1,4 +1,4 @@
-package com.regina23.icof._04;
+package icof._04;
 
 public class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {

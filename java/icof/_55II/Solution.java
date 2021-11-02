@@ -1,6 +1,6 @@
-package com.regina23.icof._55II;
+package icof._55II;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 import com.sun.source.tree.Tree;
 
 public class Solution {

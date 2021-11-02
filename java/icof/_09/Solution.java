@@ -1,4 +1,4 @@
-package com.regina23.icof._09;
+package icof._09;
 
 import java.util.Deque;
 import java.util.LinkedList;

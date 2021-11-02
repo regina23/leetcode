@@ -1,6 +1,6 @@
-package com.regina23.algorithm._0021;
+package algorithm._0021;
 
-import com.regina23.source.ListNode;
+import source.ListNode;
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

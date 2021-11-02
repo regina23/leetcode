@@ -1,6 +1,6 @@
-package com.regina23.icof._55I;
+package icof._55I;
 
-import com.regina23.source.TreeNode;
+import source.TreeNode;
 
 public class Solution {
     public int maxDepth(TreeNode root) {

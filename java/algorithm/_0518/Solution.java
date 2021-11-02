@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0518;
+package algorithm._0518;
 
 public class Solution {
     public int change(int amount, int[] coins) {

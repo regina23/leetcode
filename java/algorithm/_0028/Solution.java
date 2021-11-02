@@ -1,4 +1,4 @@
-package com.regina23.algorithm._0028;
+package algorithm._0028;
 
 public class Solution {
     public int strStr(String haystack, String needle) {

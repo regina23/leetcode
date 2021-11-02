@@ -1,4 +1,4 @@
-package com.regina23.algorithm._1209;
+package algorithm._1209;
 
 public class Solution {
     public String removeDuplicates(String s, int k) {
